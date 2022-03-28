@@ -1,0 +1,11 @@
+Package: toyRpackage
+Title: Power for Likelihood Ratio Test
+Version: 0.0.0.9000
+Authors@R: 
+    person("Madhurbain", "Singh", , "singhm18@vcu.educ", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The package is used to estimate the power to reject the Null Hypothesis in a Likelihood Ratio Test for two nested models fit using Maximum Likelihood Estimation. The function requires as input desired alpha (`alpha`; default = 0.05), the non-centrality parameter (`diffLL`), i.e., the difference in the log-likelihood of the two models), and the difference in the degrees of freedom in the two models (`diffDF`).
+License: CC BY-NC-SA 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
